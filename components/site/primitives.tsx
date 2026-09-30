@@ -4,7 +4,7 @@ type CtaVariant = 'primary' | 'accent' | 'outline' | 'ghost'
 
 const ctaStyles: Record<CtaVariant, string> = {
   primary: 'bg-primary text-primary-foreground hover:bg-primary/90',
-  accent: 'bg-accent text-accent-foreground hover:bg-rose-deep',
+  accent: 'bg-accent text-accent-foreground hover:bg-clay-deep',
   outline: 'border border-primary/25 bg-card/60 text-primary hover:bg-secondary',
   ghost: 'text-primary hover:bg-secondary',
 }
@@ -52,7 +52,7 @@ export function SectionHeading({
 }) {
   return (
     <div className={cn('mb-10 flex flex-col gap-3', align === 'center' && 'items-center text-center', className)}>
-      <p className="text-xs font-medium uppercase tracking-[0.2em] text-rose-deep">{eyebrow}</p>
+      <p className="text-xs font-medium uppercase tracking-[0.2em] text-clay-deep">{eyebrow}</p>
       <h2 className="text-4xl font-medium leading-tight text-primary md:text-5xl">{title}</h2>
     </div>
   )

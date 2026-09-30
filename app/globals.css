@@ -22,14 +22,15 @@
   --secondary-foreground: oklch(0.32 0.05 158);
   --muted: oklch(0.955 0.022 145);
   --muted-foreground: oklch(0.5 0.03 158);
-  --accent: oklch(0.7 0.11 12);
-  --accent-foreground: oklch(0.99 0.005 12);
-  --rose-soft: oklch(0.95 0.03 12);
-  --rose-deep: oklch(0.55 0.13 12);
+  /* Earthy accents: terracotta / rust / sand */
+  --accent: oklch(0.56 0.12 48);
+  --accent-foreground: oklch(0.975 0.015 75);
+  --clay-soft: oklch(0.93 0.03 70);
+  --clay-deep: oklch(0.47 0.1 45);
   --destructive: oklch(0.577 0.245 27.325);
   --border: oklch(0.9 0.025 145);
   --input: oklch(0.9 0.025 145);
-  --ring: oklch(0.7 0.11 12);
+  --ring: oklch(0.56 0.12 48);
   --radius: 1rem;
 }
 
@@ -43,8 +44,8 @@
   --color-destructive: var(--destructive);
   --color-accent-foreground: var(--accent-foreground);
   --color-accent: var(--accent);
-  --color-rose-soft: var(--rose-soft);
-  --color-rose-deep: var(--rose-deep);
+  --color-clay-soft: var(--clay-soft);
+  --color-clay-deep: var(--clay-deep);
   --color-muted-foreground: var(--muted-foreground);
   --color-muted: var(--muted);
   --color-secondary-foreground: var(--secondary-foreground);

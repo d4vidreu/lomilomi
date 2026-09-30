@@ -26,7 +26,7 @@ export function About() {
               const Icon = icons[b.icon] ?? Leaf
               return (
                 <li key={b.title} className="flex flex-col gap-2 rounded-2xl bg-muted p-4">
-                  <span className="flex size-10 items-center justify-center rounded-full bg-rose-soft text-rose-deep">
+                  <span className="flex size-10 items-center justify-center rounded-full bg-clay-soft text-clay-deep">
                     <Icon className="size-5" aria-hidden="true" />
                   </span>
                   <h3 className="font-sans text-sm font-semibold text-primary">{b.title}</h3>

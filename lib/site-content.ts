@@ -52,7 +52,7 @@ export const hero = {
   text: 'A deeply relaxing full-body massage with warm oil and long, wave-like strokes – inspired by the ancient healing art of Hawaii.',
   primaryCta: { label: 'Request appointment', href: '#contact' },
   secondaryCta: { label: 'View treatments', href: '#treatments' },
-  image: { src: '/images/hero.png', alt: 'Therapist giving a flowing Lomi Lomi massage with warm oil' },
+  image: { src: '/images/hero.png', alt: 'Fine white line drawing of flowing ginkgo leaves on sage green' },
   highlights: ['Certified practitioner', 'Organic oils', 'Calm private studio'],
 }
 
@@ -70,7 +70,7 @@ export const about = {
     { icon: 'sparkles', title: 'Renewed energy', text: 'Stimulates circulation and leaves you refreshed.' },
     { icon: 'leaf', title: 'Holistic care', text: 'Treats body, mind and soul as one.' },
   ],
-  image: { src: '/images/studio.png', alt: 'Calm massage studio with green linens and plumeria flowers' },
+  image: { src: '/images/studio.png', alt: 'Line drawing of a ginkgo leaf inside a hand-drawn circle on terracotta' },
 }
 
 /** WP: Custom Post Type "Treatment" (title, duration, price, excerpt, featured flag) */
@@ -130,7 +130,7 @@ export const therapist = {
     'In my calm studio I create a safe space where you can truly let go. Every massage is tailored to you – your body, your needs, your day.',
   ],
   credentials: ['10+ years experience', 'Trained in Hawaii', 'Member of the Lomi Lomi Association'],
-  image: { src: '/images/therapist.png', alt: 'Portrait of massage therapist Leilani Weber' },
+  image: { src: '/images/therapist.png', alt: 'Line art of a serene woman with a sun, framed in an oval on rust orange' },
 }
 
 /** WP: Testimonials block / Custom Post Type */
@@ -156,7 +156,7 @@ export const giftCards = {
   text: 'A Lomi Lomi massage is a heartfelt present for birthdays, anniversaries or simply to say thank you. Choose a treatment or a custom amount.',
   shopSoonNote: 'Online gift card shop coming soon – until then, simply get in touch and I will prepare a beautiful voucher for you.',
   options: ['50 €', '95 €', '125 €', 'Custom'],
-  image: { src: '/images/gift.png', alt: 'Rose-colored gift voucher envelope with a plumeria flower' },
+  image: { src: '/images/gift.png', alt: 'Sand-colored gift voucher with an embossed gold sunburst' },
 }
 
 /** WP: FAQ block (e.g. Yoast / Rank Math FAQ block for rich results) */

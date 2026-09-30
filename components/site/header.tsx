@@ -14,7 +14,7 @@ export function Header() {
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5 md:px-8">
         <a href="#top" className="flex flex-col leading-none" aria-label={`${site.name} home`}>
           <span className="font-serif text-2xl font-semibold text-primary">{site.name}</span>
-          <span className="text-[0.65rem] uppercase tracking-[0.25em] text-rose-deep">{site.tagline}</span>
+          <span className="text-[0.65rem] uppercase tracking-[0.25em] text-clay-deep">{site.tagline}</span>
         </a>
 
         <nav aria-label="Main" className="hidden lg:block">

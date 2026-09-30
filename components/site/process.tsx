@@ -5,7 +5,7 @@ export function Process() {
   return (
     <Section className="bg-primary text-primary-foreground">
       <div className="mb-10 flex flex-col gap-3">
-        <p className="text-xs font-medium uppercase tracking-[0.2em] text-rose-soft">{process.eyebrow}</p>
+        <p className="text-xs font-medium uppercase tracking-[0.2em] text-clay-soft">{process.eyebrow}</p>
         <h2 className="text-4xl font-medium leading-tight md:text-5xl">{process.title}</h2>
       </div>
       <ol className="grid gap-6 md:grid-cols-3">

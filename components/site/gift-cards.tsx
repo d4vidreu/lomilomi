@@ -16,7 +16,7 @@ export function GiftCards() {
 
           <ul className="flex flex-wrap gap-2" aria-label="Available gift card values">
             {giftCards.options.map((o) => (
-              <li key={o} className="rounded-full border border-accent/40 bg-card px-4 py-2 text-sm font-medium text-rose-deep">
+              <li key={o} className="rounded-full border border-accent/40 bg-card px-4 py-2 text-sm font-medium text-clay-deep">
                 {o}
               </li>
             ))}
@@ -29,7 +29,7 @@ export function GiftCards() {
             </CtaLink>
           ) : (
             <>
-              <p className="rounded-2xl bg-rose-soft p-4 text-sm leading-relaxed text-rose-deep">{giftCards.shopSoonNote}</p>
+              <p className="rounded-2xl bg-clay-soft p-4 text-sm leading-relaxed text-clay-deep">{giftCards.shopSoonNote}</p>
               <CtaLink href="#contact" variant="accent" className="w-full sm:w-fit">
                 <Mail />
                 Request a gift card

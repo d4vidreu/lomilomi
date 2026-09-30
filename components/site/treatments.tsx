@@ -24,7 +24,7 @@ export function Treatments() {
             )}
             <div className="flex items-start justify-between gap-4">
               <h3 className="text-2xl font-medium leading-tight text-primary">{t.name}</h3>
-              <p className="shrink-0 font-serif text-2xl font-semibold text-rose-deep">{t.price}</p>
+              <p className="shrink-0 font-serif text-2xl font-semibold text-clay-deep">{t.price}</p>
             </div>
             <p className="flex items-center gap-1.5 text-sm text-muted-foreground">
               <Clock className="size-4" aria-hidden="true" />

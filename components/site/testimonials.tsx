@@ -4,7 +4,7 @@ import { Section, SectionHeading } from './primitives'
 
 export function Testimonials() {
   return (
-    <Section className="bg-rose-soft/60">
+    <Section className="bg-clay-soft/60">
       <SectionHeading eyebrow="Kind words" title="What clients say" />
       <ul className="-mx-5 flex snap-x snap-mandatory gap-4 overflow-x-auto px-5 pb-4 md:mx-0 md:grid md:grid-cols-3 md:overflow-visible md:px-0">
         {testimonials.map((t) => (

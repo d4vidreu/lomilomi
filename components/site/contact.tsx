@@ -20,7 +20,7 @@ export function Contact() {
           {features.onlineBooking ? (
             <div id="booking-widget" className="mt-8 min-h-64 rounded-3xl bg-card p-6" />
           ) : (
-            <p className="mt-6 flex items-center gap-2 text-sm text-rose-deep">
+            <p className="mt-6 flex items-center gap-2 text-sm text-clay-deep">
               <CalendarClock className="size-4" aria-hidden="true" />
               {contact.bookingSoonNote}
             </p>
@@ -32,7 +32,7 @@ export function Contact() {
                 <a
                   href={c.href}
                   {...(c.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
-                  className="flex min-h-16 items-center gap-4 rounded-2xl bg-card p-4 transition-colors hover:bg-rose-soft"
+                  className="flex min-h-16 items-center gap-4 rounded-2xl bg-card p-4 transition-colors hover:bg-clay-soft"
                 >
                   <span className="flex size-11 shrink-0 items-center justify-center rounded-full bg-accent text-accent-foreground">
                     <c.icon className="size-5" aria-hidden="true" />
@@ -50,7 +50,7 @@ export function Contact() {
         <div className="flex flex-col gap-4">
           <div className="rounded-3xl bg-card p-6">
             <h3 className="mb-4 flex items-center gap-2 text-2xl font-medium text-primary">
-              <Clock className="size-5 text-rose-deep" aria-hidden="true" />
+              <Clock className="size-5 text-clay-deep" aria-hidden="true" />
               Opening hours
             </h3>
             <dl className="flex flex-col divide-y">
@@ -67,10 +67,10 @@ export function Contact() {
             href={site.address.mapsHref}
             target="_blank"
             rel="noopener noreferrer"
-            className="group rounded-3xl bg-card p-6 transition-colors hover:bg-rose-soft"
+            className="group rounded-3xl bg-card p-6 transition-colors hover:bg-clay-soft"
           >
             <h3 className="mb-3 flex items-center gap-2 text-2xl font-medium text-primary">
-              <MapPin className="size-5 text-rose-deep" aria-hidden="true" />
+              <MapPin className="size-5 text-clay-deep" aria-hidden="true" />
               Studio
             </h3>
             <address className="not-italic leading-relaxed text-muted-foreground">
